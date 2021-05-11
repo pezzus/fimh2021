@@ -6,8 +6,8 @@ DefineConstant[sh = {0.04, Min 0, Max 1.0, Step 0.02,
                      Name "Heart mesh size"} ];
 DefineConstant[st = {0.5, Min 0, Max 10.0, Step 1.0,
                      Name "Torso mesh size"} ];
-
-sb = st;
+DefineConstant[sb = {0.5, Min 0, Max 10.0, Step 1.0,
+                     Name "Blood pool mesh size"} ];
 
 SetFactory("OpenCASCADE");
 
@@ -52,7 +52,6 @@ Physical Surface("blood", 3) = {3};
 Physical Curve("chest", 100) = {1,2,3,4,5,6};
 Physical Curve("epi",   110) = {11};
 Physical Curve("endo",  120) = {12};
-//Physical Point("centre", 1000) = {100};
 
 Physical Point("elecVF", 1001) = {5};
 Physical Point("elecVR", 1002) = {7};
