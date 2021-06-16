@@ -14,4 +14,4 @@ is available on arXiv ([2102.09960](https://arxiv.org/abs/2102.09960)).
 
 ## Poster
 
-A poster will be presented at FIMH2021 conference and made available here in due time.
+The poster is available here: [FIMH2021](FIMH2021.pdf).
