@@ -4,6 +4,8 @@ We present a method to efficiently evaluate the uncertainty in bidomain-based EC
 when the position of the electrodes is uncertain.  The strategy is based on the lead field approach
 and a low-rank decomposition of the covariance matrix.  The implementation is done in FEniCS.
 
+![ECG results](figures/ECGcomp.png)
+
 ## Paper
 
 The preprint
